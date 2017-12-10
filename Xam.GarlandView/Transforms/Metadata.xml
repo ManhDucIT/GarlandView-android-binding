@@ -1,0 +1,17 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr
+    path="/api/package[@name='com.ramotion.garlandview']/class[@name='TailItemTransformer']/method[@name='transformPage' and count(parameter)=2 and parameter[1][@type='com.ramotion.garlandview.TailItem'] and parameter[2][@type='float']]/parameter[1]" name="type">Java.Lang.Object</attr>
+
+    <attr
+    path="/api/package[@name='com.ramotion.garlandview']/class[@name='TailItem']/method[@name='getViewGroup']" 
+    name="return">Android.Views.ViewGroup</attr>
+
+</metadata>
